@@ -59,10 +59,10 @@ System Programming Experiments
   <img src="https://i.ibb.co/nmVtTBx/output.jpg" width="550" height="300"  title="Output">
  </p>
 
- * Removal of Left Recursion.
- ** Sample input 1  
+ * Removal of Left Recursion.  
+ Sample input 1  
   E->E+T/T  
-  ** Sample input 2  
+  Sample input 2  
   S->(L)/x  
   L->Ls/s
 <p align="center">
