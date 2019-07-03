@@ -44,9 +44,7 @@ System Programming Experiments
 
 * Python 3.* interpreter
 * gcc compiler & lex compiler. Refer the following video for windows installation
-```
 [Click here to get redirected to youtube](https://www.youtube.com/watch?v=0MUULWzswQE)
-```
 
 ## Demonstrations (Valid set Sample inputs and output)
 * Counting the no of words, character, lines,  using lex.
