@@ -70,14 +70,14 @@ System Programming Experiments
   <img src="https://i.ibb.co/NCRLvcw/2.png" width="550" height="300"  title="Sample input 2">
  </p>
 
-* Finding the First of a grammar.
-** Sample input 1  
+* Finding the First of a grammar.  
+```Sample input 1```    
   E->TA  
   A->+TA/€  
   T->FB  
   B->\*FB/€  
-  F->id(E) 
-** Sample input 2    
+  F->id(E)  
+  ```Sample input 2```  
   S->ACB/CbB/Ba  
   A->da/BC  
   B->g/€  
@@ -88,14 +88,14 @@ System Programming Experiments
   <img src="https://i.ibb.co/QY7KQ99/2.png" width="550" height="300" title="Sample input 2">
  </p>
 
-* Finding the Follow of a grammar.
-** Sample input 1  
+* Finding the Follow of a grammar.  
+```Sample input 1```  
   E->TA  
   A->+TA/€  
   T->FB  
   B->\*FB/€  
   F->id(E)  
- ** Sample input 2    
+ ```Sample input 2```  
   S->aABb  
   A->C/€  
   B->d/€ 
