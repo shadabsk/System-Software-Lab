@@ -60,9 +60,9 @@ System Programming Experiments
  </p>
 
  * Removal of Left Recursion.  
- Sample input 1  
+ ```Sample input 1```  
   E->E+T/T  
-  Sample input 2  
+  ```Sample input 2```  
   S->(L)/x  
   L->Ls/s
 <p align="center">
