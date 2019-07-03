@@ -15,9 +15,9 @@ System Programming Experiments
 
 ### Counting the no of words, character, lines,  using lex.
 * Requires the lex system software and gcc installed in the system
-* The input.txt contains necessary data and is supplied as an input to the program. counter.l is compiled with lex to obtain the lex.yy.c file. syntax is as below
+* The input.txt contains necessary data and is supplied as an input to the program. counter.l is compiled with lex to obtain the lex.yy.c file. syntax is as highlighted
 ```lex counter.l```
-* gcc is used to compile the lex.yy.c file to get the final output. syntax is as below
+* gcc is used to compile the lex.yy.c file to get the final output. syntax is as highlighted
 ```gcc lex.yy.c```
 
 ### Finding identifiers in C.
@@ -27,7 +27,6 @@ System Programming Experiments
 ### Removal of Left Recursion.
 * Requires python interpreter.
 * Follow the on-screen instruction for input syntax, simply run leftrec.py.
-*
 
 ### Finding the First of a grammar.
 * Requires python interpreter.
@@ -46,7 +45,7 @@ System Programming Experiments
 * Python 3.* interpreter
 * gcc compiler & lex compiler. Refer the following video for windows installation
 ```
-https://www.youtube.com/watch?v=0MUULWzswQE
+[Click here to get redirected to youtube](https://www.youtube.com/watch?v=0MUULWzswQE)
 ```
 
 ## Demonstrations (Valid set Sample inputs and output)
@@ -61,47 +60,47 @@ https://www.youtube.com/watch?v=0MUULWzswQE
  </p>
 
  * Removal of Left Recursion.
-<p align="center">
-  ** Sample input 1  
+ ** Sample input 1  
   E->E+T/T
-  <img src="https://i.ibb.co/TP0L4Mx/1.png" width="550" height="300"  title="Sample input 1">  
-  ** Sample input 2  
+** Sample input 2  
   S->(L)/x  
-  L->Ls/s  
+  L->Ls/s
+<p align="center">
+  <img src="https://i.ibb.co/TP0L4Mx/1.png" width="550" height="300"  title="Sample input 1">    
   <img src="https://i.ibb.co/NCRLvcw/2.png" width="550" height="300"  title="Sample input 2">
  </p>
 
 * Finding the First of a grammar.
-<p align="center">
-  ** Sample input 1  
+** Sample input 1  
   E->TA  
   A->+TA/€  
   T->FB  
   B->\*FB/€  
-  F->id(E)  
-  <img src="https://i.ibb.co/VQmJsCL/1.png" width="550" height="300" title="Sample input1">  
-  ** Sample input 2    
+  F->id(E) 
+** Sample input 2    
   S->ACB/CbB/Ba  
   A->da/BC  
   B->g/€  
   C->b/€  
-  F->id(E)  
+  F->id(E)
+<p align="center"> 
+  <img src="https://i.ibb.co/VQmJsCL/1.png" width="550" height="300" title="Sample input1">    
   <img src="https://i.ibb.co/QY7KQ99/2.png" width="550" height="300" title="Sample input 2">
  </p>
 
 * Finding the Follow of a grammar.
-<p align="center">
- ** Sample input 1  
+** Sample input 1  
   E->TA  
   A->+TA/€  
   T->FB  
   B->\*FB/€  
   F->id(E)  
-  <img src="https://i.ibb.co/VC5Sw1V/1.png" width="550" height="300" title="Sample input1">  
-  ** Sample input 2    
+ ** Sample input 2    
   S->aABb  
   A->C/€  
-  B->d/€    
+  B->d/€ 
+<p align="center">
+  <img src="https://i.ibb.co/VC5Sw1V/1.png" width="550" height="300" title="Sample input1">     
   <img src="https://i.ibb.co/QY7KQ99/2.png" width="550" height="300" title="Sample input 2">
  </p>
 
